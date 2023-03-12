@@ -1,0 +1,13 @@
+.main {
+  width: 88%;
+  margin: 3.5% auto 0;
+  font-family: 'TiltWarp', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (min-width: 819px) {
+  .main {
+    width: 70%;
+  }
+}
