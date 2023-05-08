@@ -1,0 +1,22 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  color: #496ff2;
+  transition: color .3s ease;
+}
+
+@media (hover),
+(min-width: 0\0),
+(min--moz-device-pixel-ratio: 0) {
+  .wrapper:hover {
+    color: #000;
+  }
+
+  .wrapper:hover >
+  .wrapper__item >
+  .wrapper__bar >
+  .wrapper__bar-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+}

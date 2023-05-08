@@ -1,0 +1,7 @@
+.wrapper__item-img {
+  width: 0;
+  visibility: hidden;
+  opacity: 0;
+  align-self: center;
+  transition: all .5s ease;
+}
